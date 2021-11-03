@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./view.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>list</title>
+</head>
+<body>
+
+ <div class="wrapper">
+  <div class="links">
+   <ul>
+    <li data-view="list-view" class="li-list active"><i class="fa fa-th-list"><a href="view.html"></a></i>
+      list view</li>
+           <li data-view="grid-view"class="li-grid"><i class="fa fa-th-large"><a href="view.html"></a></i>grid view</li>
+           <li><a href="payment.html">Cart and payment</a></li>
+   </ul> 
+  </div>
+  <div class="view-main">
+   <div class=" view-wrap list-view" style="display:block">
+   <div class="view-item">
+    <div class="view-left">
+     <img class="meal-img"src="./img/coco.jpg" alt="coco">
+    </div>
+    <div class="view-right">
+     <p class="title">COCO</p>
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+   <div class="view-item">
+    <div class="view-left"> 
+     <img class="meal-img"src="./img/shakes4.jpg" alt="watermelon">
+    <!--<div class="rating">
+        <i class= "fa fa-star"></i>
+        <i class= "fa fa-star"></i>
+        <i class= "fa fa-star"></i>
+        <i class= "fa fa-star"></i>
+        <i class= "fa fa-star"></i>
+        <span class="span">5/5</span> 
+      </div> --> 
+  </div>
+    <div class="view-right">
+     <p class="title">watermelon</p>
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+   <div class="view-item">
+    <div class="view-left">
+     <img class="meal-img"src="./img/breakfast3.jpg" alt="orange">
+    </div>
+    <div class="view-right">
+     <p class="title">orange</p>
+  
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+  
+   <div class="view-item">
+    <div class="view-left">
+     <img class="meal-img"src="./img/pear.jpg" alt="pear">
+    </div>
+    <div class="view-right">
+     <p class="title">pear</p>
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+   <div class="view-item">
+    <div class="view-left">
+     <img class="meal-img"src="./img/icecream.jpg" alt="icecream">
+    </div>
+    <div class="view-right">
+     <p class="title">icecream</p>
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+   <div class="view-item">
+    <div class="view-left">
+     <img class="meal-img"src="./img/coconut.jpg" alt="coconut">
+    </div>
+    <div class="view-right">
+     <p class="title">coconut</p>
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+   <div class="view-item">
+    <div class="view-left">
+     <img class="meal-img"src="./img/strewberry.jpg" alt="strewberry">
+    </div>
+    <div class="view-right">
+     <p class="title">strewberry</p>
+     <button class="button">Order Me</button>
+    </div>
+   </div>
+  </div>
+  
+  <div class="view-wrap grid-view" style="display:none;">
+    <div class="view-item">
+        <div class="view-left">
+         <img class="meal-img"src="./img/coco.jpg" alt="coco">
+        </div>
+        <div class="view-right">
+         <p class="title">COCO</p>
+         <button class="button">Order Me</button>
+        </div>
+       </div>
+       <div class="view-item">
+        <div class="view-left">
+            <img class="meal-img"src="./img/shakes4.jpg" alt="watermelon">
+           </div>
+           <div class="view-right">
+            <p class="title">watermelon</p>
+            <button class="button">Order Me</button>
+           </div>
+          </div>
+          <div class="view-item">
+           <div class="view-left">
+            <img class="meal-img"src="./img/breakfast3.jpg" alt="orange">
+           </div>
+           <div class="view-right">
+            <p class="title">orange</p>
+            <button class="button">Order Me</button>
+           </div>
+          </div>
+          <div class="view-item">
+           <div class="view-left">
+            <img class="meal-img"src="./img/pear.jpg" alt="pear">
+           </div>
+           <div class="view-right">
+            <p class="title">pear</p>
+            <button class="button">Order Me</button>
+           </div>
+          </div>
+          <div class="view-item">
+           <div class="view-left">
+            <img class="meal-img"src="./img/icecream.jpg" alt="icecream">
+           </div>
+           <div class="view-right">
+            <p class="title">icecream</p>
+            <button class="button">Order Me</button>
+           </div>
+          </div>
+          <div class="view-item">
+           <div class="view-left">
+            <img class="meal-img"src="./img/strewberry.jpg" alt="coconut">
+           </div>
+           <div class="view-right">
+            <p class="title">coconut</p> 
+            <button class="button">Order Me</button>
+           </div>
+          </div>
+          <div class="view-item">
+           <div class="view-left">
+            <img class="meal-img"src="./img/coconut.jpg" alt="strewberry">
+           </div>
+           <div class="view-right">
+            <p class="title">strewberry</p>
+            <button class="button">Order Me</button>
+           </div>
+          </div>
+        </div>
+          <div class="modal-view">
+            <div class="modal-card">
+              <i class="fa fa-times close-btn"></i>
+              <div class="food-img">
+                <img class="modal-img"src="" alt="">
+              </div>
+              <div class="info">
+                <h2 class="heading"></h2>
+                <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium dolorem repellat sed nobis temporibus doloribus consequatur iste, cum laboriosam officia.</p>
+                <span class="price"># 1000</span>
+                <a href="#" class="cart-btn">Add to Cart</a>
+              </div>
+
+            </div>
+          </div>
+</div>
+  </div>
+
+ <script src="view.js"></script>
+</body>
+</html>
